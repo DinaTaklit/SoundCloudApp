@@ -38,3 +38,24 @@ h1.title{
     font-size: 4rem;
     color: white;
 }
+
+/********** Search Box ***********/
+.search-box{
+    position: relative;
+}
+.search-box input{
+    width: 100%;
+    padding: .4rem 0 .4rem 1rem;
+    border: none;
+    border-radius: 50px;
+}
+.search-box input:focus {
+    outline: none;
+}
+
+.search-box i {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 1rem;
+}
