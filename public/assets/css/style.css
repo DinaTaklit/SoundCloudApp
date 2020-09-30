@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+
+:root{
+    --color-red: #f10246;
+}
+
+*, 
+*::before, 
+*::after{
+    box-sizing: border-box;
+}
+
+body{
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Arvo', serif;
+}
+
+
+.soundapp{
+    height: 100vh;
+    background-color: #222;
+    background-image: url('../img/bg2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 3rem;
+}
+
+h1.title{
+    font-size: 4rem;
+    color: white;
+}
